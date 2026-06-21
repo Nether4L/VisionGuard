@@ -23,7 +23,18 @@ namespace VisionGuard
             _timer = new System.Windows.Forms.Timer();
             _timer.Interval = 20 * 60 * 1000;
 
-            _trayIcon.Icon = SystemIcons.Application;
+            using (var stream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("VisionGuard.app_icon.ico")) 
+            {
+                if (stream != null) 
+                {
+                    _trayIcon.Icon = new Icon(stream);
+                }
+                else 
+                {
+                    _trayIcon.Icon = SystemIcons.Application;
+                }
+            }
+
             _trayIcon.Text = "Vision Guard";
             _trayIcon.Visible = true;
 

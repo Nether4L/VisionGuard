@@ -18,15 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -36,7 +32,7 @@
               "RelativeDocumentMoniker": "AppConfigContext.cs",
               "ToolTip": "D:\\Sh!t\\Programming\\VisionGuard\\AppConfigContext.cs",
               "RelativeToolTip": "AppConfigContext.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwDMAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-21T11:34:00.568Z",
               "EditorCaption": ""
@@ -51,8 +47,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T11:29:51.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T11:29:51.303Z"
             }
           ]
         }

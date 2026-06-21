@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Sh!t\\Programming\\VisionGuard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39E8E4A0-2AB7-4DBC-B598-C7F09F6F83D3}|VisionGuard.csproj|d:\\sh!t\\programming\\visionguard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39E8E4A0-2AB7-4DBC-B598-C7F09F6F83D3}|VisionGuard.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39E8E4A0-2AB7-4DBC-B598-C7F09F6F83D3}|VisionGuard.csproj|d:\\sh!t\\programming\\visionguard\\appconfigcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39E8E4A0-2AB7-4DBC-B598-C7F09F6F83D3}|VisionGuard.csproj|solutionrelative:appconfigcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppConfigContext.cs",
+              "DocumentMoniker": "D:\\Sh!t\\Programming\\VisionGuard\\AppConfigContext.cs",
+              "RelativeDocumentMoniker": "AppConfigContext.cs",
+              "ToolTip": "D:\\Sh!t\\Programming\\VisionGuard\\AppConfigContext.cs",
+              "RelativeToolTip": "AppConfigContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T11:34:00.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Sh!t\\Programming\\VisionGuard\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Sh!t\\Programming\\VisionGuard\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T11:29:51.303Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

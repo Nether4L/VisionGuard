@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Sh!t\\Programming\\VisionGuard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3B54BEE-0584-8404-36F5-2E5BC3A1B8E6}|VisionGuard.csproj|d:\\sh!t\\programming\\visionguard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3B54BEE-0584-8404-36F5-2E5BC3A1B8E6}|VisionGuard.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C3B54BEE-0584-8404-36F5-2E5BC3A1B8E6}|VisionGuard.csproj|d:\\sh!t\\programming\\visionguard\\appconfigcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3B54BEE-0584-8404-36F5-2E5BC3A1B8E6}|VisionGuard.csproj|solutionrelative:appconfigcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3B54BEE-0584-8404-36F5-2E5BC3A1B8E6}|VisionGuard.csproj|d:\\sh!t\\programming\\visionguard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3B54BEE-0584-8404-36F5-2E5BC3A1B8E6}|VisionGuard.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,20 +25,25 @@
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AppConfigContext.cs",
               "DocumentMoniker": "D:\\Sh!t\\Programming\\VisionGuard\\AppConfigContext.cs",
               "RelativeDocumentMoniker": "AppConfigContext.cs",
               "ToolTip": "D:\\Sh!t\\Programming\\VisionGuard\\AppConfigContext.cs",
               "RelativeToolTip": "AppConfigContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDMAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T11:34:00.568Z"
+              "WhenOpened": "2026-06-21T11:34:00.568Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Sh!t\\Programming\\VisionGuard\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

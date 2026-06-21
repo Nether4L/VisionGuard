@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.Win32;
 
 namespace VisionGuard
 {
@@ -17,6 +18,7 @@ namespace VisionGuard
 
             ContextMenuStrip contextMenu = new();
             ToolStripMenuItem exitItem = new("Exit");
+            ToolStripMenuItem autostartItem = new("Execute on start");
 
             _timer = new System.Windows.Forms.Timer();
             _timer.Interval = 20 * 60 * 1000;
@@ -30,6 +32,34 @@ namespace VisionGuard
                 _trayIcon.Visible = false;
                 Application.Exit();
             };
+
+            using (RegistryKey key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Run", false)) 
+            {
+                autostartItem.Checked = key?.GetValue("VisionGuard") != null;
+            }
+
+            autostartItem.Click += (sender, e) => 
+            {
+                autostartItem.Checked = !autostartItem.Checked;
+
+                using (RegistryKey key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Run", true))
+                {
+                    
+                    if (key != null) 
+                    {
+                        if (autostartItem.Checked) 
+                        {
+                            key.SetValue("VisionGuard", $"\"{Application.ExecutablePath}\"");
+                        }
+                        else 
+                        {
+                            key.DeleteValue("VisionGuard", false);
+                        }
+                    }
+                }
+            };
+
+            contextMenu.Items.Add(autostartItem);
 
             contextMenu.Items.Add(exitItem);
 
